@@ -1,0 +1,32 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat application using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidanderson76/chatApp.git"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "talk",
+    "nice",
+    "javascript"
+  ],
+  "author": "David Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davidanderson76/chatApp/issues"
+  },
+  "homepage": "https://github.com/Davidanderson76/chatApp#readme",
+  "dependencies": {
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
